@@ -10,3 +10,15 @@ gulp.task('css', function () {
     ]))
     .pipe(gulp.dest('zorexsalvo/static/css/'))
 });
+
+
+gulp.task('heroku: task', function () {
+  const postcss = require('gulp-postcss')
+
+  return gulp.src('src/styles.css')
+    .pipe(postcss([
+      require('tailwindcss'),
+      require('autoprefixer'),
+    ]))
+    .pipe(gulp.dest('zorexsalvo/static/css/'))
+});
