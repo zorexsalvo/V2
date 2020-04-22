@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "zorexsalvo"
+version = "0.1.0"
+description = ""
+authors = ["Zorex Salvo <zorexsalvo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+wagtail = "^2.8.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
