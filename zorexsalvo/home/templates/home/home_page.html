@@ -8,14 +8,33 @@
 {% comment %}
 Delete the line below if you're just getting started and want to remove the welcome screen!
 {% endcomment %}
-<link rel="stylesheet" href="{% static 'css/welcome_page.css' %}">
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
 {% endblock extra_css %}
 
 {% block content %}
 
-{% comment %}
-Delete the line below if you're just getting started and want to remove the welcome screen!
-{% endcomment %}
-{% include 'home/welcome_page.html' %}
+<div>
+    <nav class="flex items-center justify-between flex-wrap p-6 mt-2">
+        <div class="flex items-center flex-shrink-0 mr-6 ml-10">
+          <span class="font-bold text-3xl tracking-tight text-indigo-900">zorex</span>
+          <span class="font-bold text-3xl tracking-tight text-red-600">salvo</span>
+        </div>
+        <div class="container mx-auto">
+            <div>
+                <div class="flex text-indigo-900 items-baseline">
+                    <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-32 border-b-4 border-white hover:border-red-500 pb-3">
+                        Home + about me
+                    </a>
+                    <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-32 border-b-4 border-white hover:border-red-500 pb-3">
+                        Journal
+                    </a>
+                    <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-32 border-b-4 border-white hover:border-red-500 pb-3">
+                        Extras + snippets
+                    </a>
+                </div>
+            </div>
+        </div>
+      </nav>
+</div>
 
 {% endblock content %}

@@ -131,3 +131,4 @@ dmypy.json
 # Frontend
 node_modules/
 build/
+static/

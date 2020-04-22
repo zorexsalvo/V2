@@ -8,5 +8,5 @@ gulp.task('css', function () {
       require('tailwindcss'),
       require('autoprefixer'),
     ]))
-    .pipe(gulp.dest('build/'))
-})
+    .pipe(gulp.dest('zorexsalvo/zorexsalvo/static/css/'))
+});
