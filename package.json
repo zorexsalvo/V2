@@ -5,6 +5,9 @@
   "repository": "git@github.com:zorexsalvo/V2.git",
   "author": "Zorex Salvo <zorexsalvo@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "v12.16.1"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0"
