@@ -263,7 +263,7 @@ description = "A Django content management system."
 name = "wagtail"
 optional = false
 python-versions = "*"
-version = "2.8.1"
+version = "2.8.2"
 
 [package.dependencies]
 Django = ">=2.1,<3.1"
@@ -312,7 +312,7 @@ python-versions = "*"
 version = "1.3"
 
 [metadata]
-content-hash = "da71dd24d5f45a1147737851c7cf60894bf44bcaa3c020290471be317423b78f"
+content-hash = "6a7906ea5e5646bdaa6697666785a834f4e82506281df36eed80852e777faddf"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -463,8 +463,8 @@ urllib3 = [
     {file = "urllib3-1.25.9.tar.gz", hash = "sha256:3018294ebefce6572a474f0604c2021e33b3fd8006ecd11d62107a5d2a963527"},
 ]
 wagtail = [
-    {file = "wagtail-2.8.1-py3-none-any.whl", hash = "sha256:d1daa6ba920a93c082333c053430a491b32d1b807ae253bc0d307966e849e0b2"},
-    {file = "wagtail-2.8.1.tar.gz", hash = "sha256:7159841cad23defb5bc1fee8267c3116da1a7806bb27133cca6bba7760379774"},
+    {file = "wagtail-2.8.2-py3-none-any.whl", hash = "sha256:2193da20d37021f5f31ee0f3322e7386678537d6e154bb285a11977935333a94"},
+    {file = "wagtail-2.8.2.tar.gz", hash = "sha256:f6530a7ef2ca3207a6e5c1106bf1c9b6ce86fc2d7c96276e10d6f4ae86308c70"},
 ]
 webencodings = [
     {file = "webencodings-0.5.1-py2.py3-none-any.whl", hash = "sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78"},
